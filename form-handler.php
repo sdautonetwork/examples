@@ -18,7 +18,7 @@ if (empty($result)) {
 		$result = $db->query($sql);
 }
 // Set your email below
-$myemail = "raymondzosa@sandiegoautonetwork.com"; // Replace with your email
+$myemail = raymondzosa@sandiegoautonetwork.com; // Replace with your email
 
 // Receive and sanitize input
 $name = mysqli_real_escape_string($db, $_POST['name']);
